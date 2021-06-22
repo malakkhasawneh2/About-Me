@@ -12,9 +12,9 @@ header {
       color: rgb(182, 51, 149);
       text-decoration: #fff;
     }
-  li {
+  ul#n1 {
     display: inline;
-    padding: 40px;
+    padding: 30px;
     font-size: 20px;
   }
   h1 {
@@ -41,8 +41,18 @@ h2 {
       padding: 10px;
       background-color: rgb(236, 232, 234);
 }
+h6 {
+  color: rgb(175, 33, 140);
+      font-size: 40px;
+      text-align: center;
+      margin: 30px;
+      padding: 10px;
+      background-color: rgb(172, 161, 166);
+
+}
+
    div#no3 {
-    color: rgb(160, 74, 91);
+    color: rgb(238, 128, 150);
     font-size: 25px;
     text-align: center;
     margin: 30px;
@@ -83,7 +93,36 @@ h2 {
     margin: 30px;
     padding: 10px;
    }
+   h5 {
+    color: rgb(175, 87, 135);
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    background-color: rgb(226, 200, 200);
+   }
+   ul#n2 {
+    color: rgb(101, 72, 128);
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }   
+  ul#n3 {
+    color: rgb(167, 83, 245);
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  ol {
+    color: rgb(222, 157, 241);
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+  }
 footer {
     text-align: center;
 }
-   
