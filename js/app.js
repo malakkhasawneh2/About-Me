@@ -4,6 +4,11 @@ let userinput=prompt("Tell me what's your name please")
 let Score = 0;
 alert ('Wlecome to my page '+ userinput)
 console.log(userinput);
+
+function q1 ()
+ {
+
+
 let useranswered=prompt("Do you think I finished my university studies?");
 switch (useranswered.toLocaleLowerCase()) {
     case 'yes':
@@ -21,6 +26,10 @@ switch (useranswered.toLocaleLowerCase()) {
         console.log('nothing');
         break;
 }
+}
+q1 ();
+
+function q2 () {
 let userans=prompt("Is my university degree in pharmacy?");
 switch (userans.toLocaleLowerCase()) {
     case 'yes':
@@ -38,6 +47,10 @@ switch (userans.toLocaleLowerCase()) {
         console.log('nothing');
         break;
 }
+}
+q2 ();
+
+function q3 (){
 let useran=prompt("Do you think I like cats?");
 switch (useran.toLocaleLowerCase()) {
     case 'yes':
@@ -55,6 +68,10 @@ switch (useran.toLocaleLowerCase()) {
         console.log('nothing');
         break;
 }
+}
+q3 () ;
+
+function q4 () {
 let usera=prompt("Do you think I like sports?");
 switch (usera.toLocaleLowerCase()) {
     case 'yes':
@@ -72,6 +89,10 @@ switch (usera.toLocaleLowerCase()) {
         console.log('nothing');
         break;
 }
+}
+q4 () ;
+
+function q5 () {
 let user=prompt("Is my favorite food fish?");
 switch (user.toLocaleLowerCase()) {
     case 'yes':
@@ -89,6 +110,10 @@ switch (user.toLocaleLowerCase()) {
         console.log('nothing');
         break;
 }
+} 
+q5 () ; 
+
+function q6 () {
 let Age=prompt('How old do you think I am? You have four attempts to guess the answer')
 for(let i=1;i<4;i++){
     if (Age===25){
@@ -105,6 +130,12 @@ for(let i=1;i<4;i++){
 }
 }
 alert ('Im 25 years old')
+}
+q6 () ; 
+
+
+
+function q7 () { 
 let myArr = ['strawberry', 'banana','apricot']
 let fruit=prompt('What do you think of my favorite fruits? You have 6 attempts to guess the answer');
 for(let i=1;i<6;i++){
@@ -119,6 +150,8 @@ console.log('wrong answer, please try again'+ fruit);
 }
 alert ('My favorite fruits is strawberry,banana and apricot I eat them all the time');
 console.log(Score); 
+} 
+q7 () ; 
 alert('Great  '+ userinput + ' and your scpre is ' + Score);
 alert ('Thank you for answering these questions and for visiting this page '+ userinput);
 
