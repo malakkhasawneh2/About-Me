@@ -15,8 +15,9 @@ header {
     text-align: center
     }
     div#no1 { 
-        font-size: 50px;
-        margin: 10px;
+      position: relative;  
+      font-size: 50px;
+      margin: 10px;
     }
     li a {
       color: rgb(182, 51, 149);
@@ -29,6 +30,7 @@ header {
       margin: 20px;
       text-align: initial;
   }
+
   h1 {
       color: rgb(243, 102, 179);
       font-size: 40px;
@@ -44,6 +46,7 @@ header {
       text-align:justify;
       margin: 30px;
       padding: 10px;
+      font-family: 'Pacifico', cursive;
   }
 h2 {
     color: rgb(243, 102, 179);
@@ -69,6 +72,7 @@ h6 {
     text-align: center;
     margin: 30px;
     padding: 10px;
+    font-family: 'Pacifico', cursive;
    }
    img {
     text-align: center;
@@ -89,6 +93,7 @@ h6 {
     text-align: initial;
     margin: 30px;
     padding: 10px;
+    font-family: 'Pacifico', cursive;
    }
    h4 {
     color: rgb(243, 102, 179);
@@ -104,6 +109,7 @@ h6 {
     text-align: initial;
     margin: 30px;
     padding: 10px;
+    font-family: 'Pacifico', cursive;
    }
    h5 {
     color: rgb(175, 87, 135);
